@@ -1,5 +1,5 @@
 # VR4_Robotics
-This repository is the project of virtual reality for robotics application.
+This repository is the project of virtual reality for robotics course.
 ## Quick Start
 ### Step 1:
 Open PowerShell and run the ubuntu 20.04

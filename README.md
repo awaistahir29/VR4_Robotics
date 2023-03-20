@@ -37,5 +37,5 @@ Press play and this will start the simulation with drone
 Clone [this](https://github.com/DarekLin/AS_RoS_Teleop.git) repository as it contains the package to teloperate drone in the environment. 
 Now launch airsim_teleop to control the drone to teleoperate in the environment 
 ```bash
-roslaunch airsim_teleop teleop_twist_keyboard2.py
+rosrun airsim_teleop teleop_twist_keyboard2.py
 ```

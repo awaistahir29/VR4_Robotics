@@ -39,3 +39,15 @@ Now launch airsim_teleop to control the drone to teleoperate in the environment
 ```bash
 rosrun airsim_teleop teleop_twist_keyboard2.py
 ```
+
+
+```bash
+roslaunch rtabmap_launch rtabmap.launch \
+    rtabmap_args:="--delete_db_on_start --Optimizer/GravitySigma 0.3" \
+    depth_topic:=/airsim_node/Drone_1/camera_1/DepthPlanar/compressed \
+    rgb_topic:=/airsim_node/Drone_1/camera_1/Scene/compressed \
+    camera_info_topic:=/airsim_node/Drone_1/camera_1/Scene/camera_info \
+    approx_sync:=false \
+    wait_imu_to_init:=true \
+    imu_topic:=/airsim_node/Drone_1/imu/imu_1
+```
